@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+
+}
+
+.card-container {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  grid-template-columns: auto auto auto auto;
+}
+.card {
+  border: 1px solid rgb(12, 60, 55);
+  background-color:  rgb(12, 60, 55);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  position: relative;
+  
+  
+  
+}
